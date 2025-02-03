@@ -39,7 +39,7 @@ function MailIcon(props) {
 export const metadata = {
   title: 'About',
   description:
-    'I’m Spencer Sharp. I live in New York City, where I design the future.',
+    'I’m Ciera Villalpando. I live in Wyoming, where I program the future.',
 }
 
 export default function About() {
@@ -58,46 +58,23 @@ export default function About() {
         </div>
         <div className="lg:order-first lg:row-span-2">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            I’m Spencer Sharp. I live in New York City, where I design the
-            future.
+          Hi, I’m Ciera Villalpando, a software developer based in the beautiful state of Wyoming.
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
-              I’ve loved making things for as long as I can remember, and wrote
-              my first program when I was 6 years old, just two weeks after my
-              mom brought home the brand new Macintosh LC 550 that I taught
-              myself to type on.
+              My journey into tech is fueled by a passion for problem-solving and a deep resilience shaped by my personal experiences.
             </p>
             <p>
-              The only thing I loved more than computers as a kid was space.
-              When I was 8, I climbed the 40-foot oak tree at the back of our
-              yard while wearing my older sister’s motorcycle helmet, counted
-              down from three, and jumped — hoping the tree was tall enough that
-              with just a bit of momentum I’d be able to get to orbit.
+            In 2016, after undergoing brain surgery, I faced the challenge of relearning movement and rebuilding my life from the ground up. During my recovery, I immersed myself in learning new skills, discovering a love for coding along the way. The same perseverance that helped me overcome physical challenges now drives my approach to software development—breaking down complex problems, tackling them step by step, and continuously growing.
             </p>
             <p>
-              I spent the next few summers indoors working on a rocket design,
-              while I recovered from the multiple surgeries it took to fix my
-              badly broken legs. It took nine iterations, but when I was 15 I
-              sent my dad’s Blackberry into orbit and was able to transmit a
-              photo back down to our family computer from space.
+            What once felt impossible is now my reality: building innovative applications, writing clean and efficient code, and contributing to projects that make an impact. I’m excited by the endless possibilities in tech, and I’m eager to keep learning, collaborating, and creating solutions that improve lives.
             </p>
-            <p>
-              Today, I’m the founder of Planetaria, where we’re working on
-              civilian space suits and manned shuttle kits you can assemble at
-              home so that the next generation of kids really <em>can</em> make
-              it to orbit — from the comfort of their own backyards.
-            </p>
+
           </div>
         </div>
         <div className="lg:pl-20">
           <ul role="list">
-            <SocialLink href="#" icon={XIcon}>
-              Follow on X
-            </SocialLink>
-            <SocialLink href="#" icon={InstagramIcon} className="mt-4">
-              Follow on Instagram
-            </SocialLink>
             <SocialLink href="#" icon={GitHubIcon} className="mt-4">
               Follow on GitHub
             </SocialLink>
