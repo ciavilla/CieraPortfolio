@@ -185,7 +185,7 @@ export default async function Home() {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-          "Building the Future, One Line of Code at a Time – From Wyoming to the World"
+          "Building the Future, One Line of Code at a Time"
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
           I’m Ciera Villalpando, a software developer based in the breathtaking landscapes of Wyoming. I turn challenges into code, crafting solutions that make an impact. Fueled by resilience and a passion for problem-solving, I specialize in building intuitive applications that bring ideas to life. Let’s create something amazing together.

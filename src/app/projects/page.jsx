@@ -2,47 +2,52 @@ import Image from 'next/image'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import logoAnimaginary from '@/images/logos/animaginary.svg'
-import logoCosmos from '@/images/logos/cosmos.svg'
-import logoHelioStream from '@/images/logos/helio-stream.svg'
-import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
+//import logoAnimaginary from '@/images/logos/animaginary.svg'
+//import logoCosmos from '@/images/logos/cosmos.svg'
+//import logoHelioStream from '@/images/logos/helio-stream.svg'
+//import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
+
+import logoCarCar from '@/images/logos/carcarlogo.webp'
+import projectImageCar from '@/images/projectphotos/carcar.webp'
+import projectImageDog from '@/images/projectphotos/Doggo.webp'
+import projectImageEmail from '@/images/projectphotos/massemail.webp'
 
 const projects = [
   {
-    name: 'Planetaria',
+    name: 'CarCar',
     description:
-      'Creating technology to empower civilians to explore space on their own terms.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
-    logo: logoPlanetaria,
+      'Developed a microservices-based application to streamline and manage the core operations of an automobile dealership. Engineered scalable back-end APIs using Django, following RESTful principles to ensure secure, efficient, and consistent data communication across the platform. Designed and built responsive front-end components in React, delivering an intuitive and seamless user experience on both desktop and mobile devices. Collaborated closely with a partner to integrate microservices via clearly defined API endpoints, enabling smooth data flow between services and ensuring modularity and scalability in the system architecture.',
+    link: { href: 'https://github.com/ciavilla/dealershipApp', label: 'github.com' },
+    logo: logoCarCar,
+    image: projectImageCar,
   },
   {
-    name: 'Animaginary',
+    name: 'DogGo!',
     description:
-      'High performance web animation library, hand-written in optimized WASM.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoAnimaginary,
+      'Developed a pet-friendly location, event, and services application designed to provide users with easy access to dog-friendly places and events. Implemented user authentication and secure API endpoints to ensure a safe and seamless user experience. Integrated the Geoapify API for real-time location search, geocoding, and filtering of dog-friendly locations. Built and tested FastAPI endpoints to handle user authentication, event management, and interactions with external APIs. Collaborated with a team using GitLab for version control, CI/CD pipelines, and continuous integration to streamline the development process. Employed Docker to containerize the app for easy deployment and scalability.',
+    link: { href: 'https://gitlab.com/dog-go1/module3-project-gamma', label: 'gitlab.com' },
+    image: projectImageDog,
   },
   {
-    name: 'HelioStream',
+    name: 'Mass Email Feedback',
     description:
-      'Real-time video streaming library, optimized for interstellar transmission.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoHelioStream,
+      'Developed a full-stack feedback collection app using React, Redux, Express, and MongoDB to automate user feedback through mass email campaigns. Implemented Google OAuth 2.0 for secure user authentication and integrated Stripe API for handling payments. Designed and configured RESTful APIs with Express.js, efficiently connecting them to a MongoDB database for data storage. Secured credit card transactions and logged payment records, ensuring robust financial processing. Optimized state management with Redux to enhance performance and maintainability.',
+    link: { href: 'https://github.com/ciavilla/mass-email-feedback', label: 'github.com' },
+    image: projectImageEmail
   },
   {
     name: 'cosmOS',
     description:
       'The operating system that powers our Planetaria space shuttles.',
     link: { href: '#', label: 'github.com' },
-    logo: logoCosmos,
+
   },
   {
     name: 'OpenShuttle',
     description:
       'The schematics for the first rocket I designed that successfully made it to orbit.',
     link: { href: '#', label: 'github.com' },
-    logo: logoOpenShuttle,
+
   },
 ]
 
@@ -74,17 +79,19 @@ export default function Projects() {
       >
         {projects.map((project) => (
           <Card as="li" key={project.name}>
-            <div className="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white ring-1 shadow-md shadow-zinc-800/5 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
-              <Image
-                src={project.logo}
-                alt=""
-                className="h-8 w-8"
-                unoptimized
-              />
-            </div>
             <h2 className="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100">
               <Card.Link href={project.link.href}>{project.name}</Card.Link>
             </h2>
+
+            <div className='mt-4'>
+              <Image
+                src={project.image}
+                alt={project.name}
+                className='w-full rounded-lg shadow-md'
+                width={300}
+                height={200}
+              />
+            </div>
             <Card.Description>{project.description}</Card.Description>
             <p className="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-teal-500 dark:text-zinc-200">
               <LinkIcon className="h-6 w-6 flex-none" />
