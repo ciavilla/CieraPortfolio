@@ -10,7 +10,7 @@ export const metadata = {
       'Ciera Villalpando - Software designer, dog lover, and amateur rockhounder',
   },
   description:
-    'I’m Ciera, a software designer and entrepreneur based in Wyoming. ',
+    'I’m Ciera, a software designer based in Wyoming. ',
   alternates: {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,
