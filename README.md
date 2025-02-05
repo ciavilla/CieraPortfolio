@@ -1,42 +1,57 @@
-# Spotlight
+# Ciera Villalpando's Portfolio
 
-Spotlight is a [Tailwind UI](https://tailwindui.com) site template built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
+![Portfolio Screenshot](./screenshot.png)
+A sleek, modern portfolio built with Next.js, Tailwind CSS, and MDX.
 
-## Getting started
+## 🚀 Features
+- **Dark Mode Support** 🌙
+- **Responsive Design** 📱
+- **MDX Support** for rich content ✍️
+- **Optimized Performance** with Next.js 🚀
+- **SEO-Friendly** 📈
 
-To get started with this template, first install the npm dependencies:
+## 🛠 Tech Stack
+- **Framework:** [Next.js 14](https://nextjs.org/)
+- **Styling:** [Tailwind CSS 4](https://tailwindcss.com/)
+- **Components:** [Headless UI](https://headlessui.dev/), [Heroicons](https://heroicons.com/)
+- **Content:** [MDX](https://mdxjs.com/), [remark-gfm](https://github.com/remarkjs/remark-gfm)
+- **Utilities:** [clsx](https://github.com/lukeed/clsx), [fast-glob](https://github.com/mrmlnc/fast-glob)
+- **Linting & Formatting:** ESLint, Prettier
 
-```bash
+## 📦 Installation
+Clone the repository and install dependencies:
+
+```sh
+git clone https://github.com/ciavilla/portfolio.git
+cd portfolio
 npm install
 ```
 
-Next, create a `.env.local` file in the root of your project and set the `NEXT_PUBLIC_SITE_URL` variable to your site's public URL:
+## 💻 Development
+Run the development server:
 
-```
-NEXT_PUBLIC_SITE_URL=https://example.com
-```
-
-Next, run the development server:
-
-```bash
+```sh
 npm run dev
 ```
+Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
-Finally, open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
+## 🏗️ Build & Deploy
+To build for production:
 
-## Customizing
+```sh
+npm run build
+```
 
-You can start editing this template by modifying the files in the `/src` folder. The site will auto-update as you edit these files.
+To start the production server:
 
-## License
+```sh
+npm start
+```
 
-This site template is a commercial product and is licensed under the [Tailwind UI license](https://tailwindui.com/license).
+## 📜 License
+This project is open-source under the [MIT License](./LICENSE).
 
-## Learn more
+---
+🚀 Built by [Ciera Villalpando](https://cieravillalpando.com)
 
-To learn more about the technologies used in this site template, see the following resources:
 
-- [Tailwind CSS](https://tailwindcss.com/docs) - the official Tailwind CSS documentation
-- [Next.js](https://nextjs.org/docs) - the official Next.js documentation
-- [Headless UI](https://headlessui.dev) - the official Headless UI documentation
-- [MDX](https://mdxjs.com) - the MDX documentation

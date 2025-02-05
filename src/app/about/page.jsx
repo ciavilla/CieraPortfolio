@@ -56,17 +56,17 @@ export default function About() {
         </div>
         <div className="lg:order-first lg:row-span-2">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-          Hi, I’m Ciera Villalpando, a software developer based in the beautiful state of Wyoming.
+          Hi, I’m Ciera Villalpando, a software developer crafting innovative solutions from the heart of Wyoming.
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
-              My journey into tech is fueled by a passion for problem-solving and a deep resilience shaped by my personal experiences.
+            My journey into tech is fueled by a passion for problem-solving and a deep resilience shaped by my personal experiences.
             </p>
             <p>
             In 2016, after undergoing brain surgery, I faced the challenge of relearning movement and rebuilding my life from the ground up. During my recovery, I immersed myself in learning new skills, discovering a love for coding along the way. The same perseverance that helped me overcome physical challenges now drives my approach to software development—breaking down complex problems, tackling them step by step, and continuously growing.
             </p>
             <p>
-            What once felt impossible is now my reality: building innovative applications, writing clean and efficient code, and contributing to projects that make an impact. I’m excited by the endless possibilities in tech, and I’m eager to keep learning, collaborating, and creating solutions that improve lives.
+            Now, I’m building applications, writing clean and efficient code, and contributing to meaningful projects. I’m excited to keep learning, collaborating, and pushing boundaries in tech. Let’s build something great together.
             </p>
 
           </div>

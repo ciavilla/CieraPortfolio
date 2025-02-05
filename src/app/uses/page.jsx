@@ -25,125 +25,106 @@ function Tool({ title, href, children }) {
 
 export const metadata = {
   title: 'Tech Stack',
-  description: 'Software I use, and technical skills I have mastered.',
+  description: 'The tools I use and the technical skills I have mastered.',
 }
 
 export default function Uses() {
   return (
     <SimpleLayout
-      title="Software I use, and technical skills I have mastered."
-      intro="I get asked a lot about the things I use to build software, stay productive, or buy to fool myself into thinking I’m being productive when I’m really just procrastinating. Here’s a big list of all of my favorite stuff."
+      title="Tools I Use & Skills I Have Mastered"
+      intro="A look at the programming languages, development tools, and system design approaches I work with."
     >
       <div className="space-y-5">
         <ToolsSection title="Programming Languages">
           <Tool title="JavaScript ES6+">
+            I have mastered modern JavaScript, utilizing ES6+ features for cleaner, more efficient code.
           </Tool>
           <Tool title="Python 3">
+            Python is my go-to language for backend development, automation scripts, and data processing.
           </Tool>
           <Tool title="SQL">
+            Proficient in writing complex SQL queries to manage and interact with relational databases.
           </Tool>
           <Tool title="HTML5">
+            Crafting accessible, semantic HTML for structured web pages is one of my core skills.
           </Tool>
           <Tool title="CSS">
+            I use CSS to create responsive, user-friendly web interfaces with modern design principles.
           </Tool>
         </ToolsSection>
-        <ToolsSection title="Development tools">
+
+        <ToolsSection title="Development Tools">
           <Tool title="Visual Studio Code">
-            I don’t care if it’s missing all of the fancy IDE features everyone
-            else relies on, Sublime Text is still the best text editor ever
-            made.
+            My primary code editor, VS Code offers flexibility with extensions, though I appreciate simplicity over bloat.
           </Tool>
           <Tool title="iTerm2">
-            I’m honestly not even sure what features I get with this that aren’t
-            just part of the macOS Terminal but it’s what I use.
+            A powerful terminal emulator I use for efficient command-line workflows on macOS.
           </Tool>
           <Tool title="Insomnia">
-            Great software for working with databases. Has saved me from
-            building about a thousand admin interfaces for my various projects
-            over the years.
+            Essential for API testing, especially when working with backend services and databases.
           </Tool>
         </ToolsSection>
+
         <ToolsSection title="System Design">
           <Tool title="Monoliths">
-            We started using Figma as just a design tool but now it’s become our
-            virtual whiteboard for the entire company. Never would have expected
-            the collaboration features to be the real hook.
+            Comfortable designing and building traditional monolithic applications where simplicity and cohesion are key.
           </Tool>
           <Tool title="Microservices">
-            We started using Figma as just a design tool but now it’s become our
-            virtual whiteboard for the entire company. Never would have expected
-            the collaboration features to be the real hook.
+            Experienced in building scalable applications with microservice architectures for flexibility and reliability.
           </Tool>
           <Tool title="Domain-driven design">
-            We started using Figma as just a design tool but now it’s become our
-            virtual whiteboard for the entire company. Never would have expected
-            the collaboration features to be the real hook.
+            I apply domain-driven design (DDD) principles to structure applications in alignment with business needs.
           </Tool>
         </ToolsSection>
+
         <ToolsSection title="BackEnd">
           <Tool title="Express">
-            It’s not the newest kid on the block but it’s still the fastest. The
-            Sublime Text of the application launcher world.
+            Express remains a go-to backend framework for building fast, lightweight APIs and web applications.
           </Tool>
           <Tool title="FastAPI">
-            Using a daily notes system instead of trying to keep things
-            organized by topics has been super powerful for me. And with
-            Reflect, it’s still easy for me to keep all of that stuff
-            discoverable by topic even though all of my writing happens in the
-            daily note.
+            A modern Python framework for building APIs quickly with automatic validation and performance in mind.
           </Tool>
           <Tool title="Django 4">
-            Great tool for scheduling meetings while protecting my calendar and
-            making sure I still have lots of time for deep work during the week.
+            My preferred web framework for robust, secure, and scalable applications, especially when time-to-market matters.
           </Tool>
           <Tool title="MongoDB">
-            Simple tool for blocking distracting websites when I need to just do
-            the work and get some momentum going.
+            I use MongoDB for flexible, schema-less data storage in projects where scalability and agility are priorities.
           </Tool>
           <Tool title="PostgreSQL">
-            Simple tool for blocking distracting websites when I need to just do
-            the work and get some momentum going.
+            A powerful relational database system, PostgreSQL is my choice when data integrity and complex queries are necessary.
           </Tool>
           <Tool title="CI/CD">
-            Simple tool for blocking distracting websites when I need to just do
-            the work and get some momentum going.
+            Automated continuous integration and delivery pipelines help me streamline development workflows and ensure quality.
           </Tool>
         </ToolsSection>
+
         <ToolsSection title="FrontEnd">
           <Tool title="React">
-            I don’t care if it’s missing all of the fancy IDE features everyone
-            else relies on, Sublime Text is still the best text editor ever
-            made.
+            React is my primary front-end library, helping me build dynamic, performant user interfaces with reusable components.
           </Tool>
           <Tool title="ReactNative">
-            I’m honestly not even sure what features I get with this that aren’t
-            just part of the macOS Terminal but it’s what I use.
+            With React Native, I develop cross-platform mobile apps that provide native-like performance and experience.
           </Tool>
-          <Tool title="DOM manipulation">
-            Great software for working with databases. Has saved me from
-            building about a thousand admin interfaces for my various projects
-            over the years.
+          <Tool title="DOM Manipulation">
+            I leverage vanilla JavaScript and DOM manipulation techniques for custom user interactions when React is not an option.
           </Tool>
         </ToolsSection>
-        <ToolsSection title="Cloud-Service">
+
+        <ToolsSection title="Cloud Services">
           <Tool title="AWS">
-            I don’t care if it’s missing all of the fancy IDE features everyone
-            else relies on, Sublime Text is still the best text editor ever
-            made.
+            AWS offers a wide range of services that help me deploy and scale applications in the cloud efficiently.
           </Tool>
         </ToolsSection>
+
         <ToolsSection title="Version Control">
           <Tool title="Git">
-            I don’t care if it’s missing all of the fancy IDE features everyone
-            else relies on, Sublime Text is still the best text editor ever
-            made.
+            Version control with Git is essential for tracking code changes and collaborating with teams on software projects.
           </Tool>
         </ToolsSection>
+
         <ToolsSection title="Containerization">
           <Tool title="Docker">
-            I don’t care if it’s missing all of the fancy IDE features everyone
-            else relies on, Sublime Text is still the best text editor ever
-            made.
+            Docker helps me streamline development environments and deployments with containerized applications.
           </Tool>
         </ToolsSection>
       </div>
